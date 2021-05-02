@@ -1,4 +1,5 @@
 import logoPlaceholder from '../../assets/images/logo-placeholder.png';
+import './Navbar.scss';
 
 const Navbar = () => {
   return (

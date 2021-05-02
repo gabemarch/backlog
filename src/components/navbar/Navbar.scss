@@ -1,0 +1,23 @@
+@import '../../assets/styling/variables.scss';
+
+.navbar {
+    display: flex;
+    color: $white;
+    background-color: $default-color;
+    justify-content: space-between;
+    img {
+        width: 3rem;
+        height: 3rem;
+        padding: 1rem;
+    }
+    .navbar-list {
+        display: flex;
+        flex-direction: row;
+        list-style-type: none;
+        
+        .navbar-list-item {
+            padding: 1rem;
+            cursor: pointer;
+        }
+    }
+}
