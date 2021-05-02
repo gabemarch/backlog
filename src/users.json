@@ -1,0 +1,28 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "gabe",
+      "email": "gabe@gabe.com",
+      "password": "SadsafjvCEC231",
+      "registeredAt": "2021.03.01",
+      "wishlist": [
+        "Monster Hunter",
+        "Persona 5 Strikers"
+      ],
+      "wishlistedGames": 12,
+      "userRatings": [
+        {
+          "Monster Hunter": 5,
+          "Persona 5 Royal": 5,
+          "Assassin's Creed Valhalla": 3
+        }
+      ],
+      "gamesRated": 20,
+      "obtainedGames": 50,
+      "favoriteGenres": ["action", "rpg", "adventure"],
+      "favoritedGames": 30,
+      "isAuth": true 
+    }
+  ]
+}

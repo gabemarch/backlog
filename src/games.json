@@ -1,0 +1,30 @@
+{
+  "games": [
+    {
+      "id": 1,
+      "title": "Monster Hunter Rise",
+      "releaseDate": "2021.03.26", // date format?
+      "genres": ["action", "rpg"],
+      "platforms": ["Nintendo Switch"],
+      "metaScore": "80%", // or N/A
+      "developer": "ASD",
+      "publisher": "Nintendo",
+      "coverArt": "https://google.com",
+      "trailerUrl": "https://youtube.com",
+      "description": "Lorem ipsum...",
+      "gameModes": ["Single Player", "Co-op", "Multiplayer"],
+      "stores": {
+        "Nintendo eShop": "https://nintendo.com"
+      },
+      "memberRating": 0,
+      "ratings": 
+        {
+          "fiveStars": 20,
+          "fourStars": 10,
+          "threeStars": 12,
+          "twoStars": 0,
+          "oneStars": 0
+        }
+    }
+  ]
+}
