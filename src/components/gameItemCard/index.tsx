@@ -1,0 +1,1 @@
+export * as GameItemCard from './GameItemCard';
