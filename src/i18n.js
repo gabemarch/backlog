@@ -21,7 +21,7 @@ i18n
     resources,
     lng: "hu",
     fallbackLng: "hu",
-    keySeparator: false,
+    keySeparator: ".",
     interpolation: {
       escapeValue: false,
     },

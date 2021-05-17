@@ -1,3 +1,10 @@
 {
-  "homepage": "Homepage"
+  "pages": {
+    "homepage": "Homepage",
+    "games": "Games",
+    "contact": "Contact",
+    "myProfile": "My Profile",
+    "registration": "Registration",
+    "signIn": "Sign in"
+  }
 }

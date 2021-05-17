@@ -10,19 +10,19 @@ const Navbar = () => {
       <img src={logoPlaceholder} alt="logo placeholder" />
       <ul className="navbar-list">
         <Link to='/'>
-          <li className="navbar-list-item">{t('homepage')}</li>
+          <li className="navbar-list-item">{t('pages.homepage')}</li>
         </Link>
         <Link to="/jatekok">
-          <li className="navbar-list-item">Játékok</li>
+          <li className="navbar-list-item">{t('pages.games')}</li>
         </Link>
         <Link to='/profilom'>
-          <li className="navbar-list-item">Profilom</li>
+          <li className="navbar-list-item">{t('pages.myProfile')}</li>
         </Link>
         <Link to='/kapcsolat'>
-          <li className="navbar-list-item">Kapcsolat</li>
+          <li className="navbar-list-item">{t('pages.contact')}</li>
         </Link>
         <Link to='/bejelentkezes'>
-          <li className="navbar-list-item">Bejelentkezés | Regisztráció</li>
+          <li className="navbar-list-item">{t('pages.registration')}</li>
         </Link>
       </ul>
     </div>

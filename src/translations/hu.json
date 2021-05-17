@@ -1,3 +1,10 @@
 {
-  "homepage": "Főoldal"
+  "pages": {
+    "homepage": "Főoldal",
+    "games": "Játékok",
+    "contact": "Kapcsolat",
+    "myProfile": "Profilom",
+    "registration": "Regisztráció",
+    "signIn": "Bejelentkezés"
+  }
 }
