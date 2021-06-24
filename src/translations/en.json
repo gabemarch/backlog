@@ -6,5 +6,8 @@
     "myProfile": "My Profile",
     "registration": "Registration",
     "signIn": "Sign in"
+  },
+  "common": {
+    "search": "Search for something"
   }
 }

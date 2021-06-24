@@ -6,5 +6,8 @@
     "myProfile": "Profilom",
     "registration": "Regisztráció",
     "signIn": "Bejelentkezés"
+  },
+  "common": {
+    "search": "Keress valamit"
   }
 }

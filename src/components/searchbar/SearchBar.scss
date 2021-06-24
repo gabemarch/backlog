@@ -1,0 +1,26 @@
+@import "../../assets/styling/variables.scss";
+
+.search-bar {
+  display: flex;
+  flex-direction: row;
+  align-self: center;
+  padding-right: 1rem;
+
+  &-input {
+    width: 15vw;
+    border: none;
+    padding: 0.5rem;
+  }
+
+  &-icon {
+    align-self: center;
+    padding: 1rem;
+    background-color: $cta;
+    cursor: pointer;
+    transition: 0.2s ease-in;
+
+    &:hover {
+      background-color: $cta-hover;
+    }
+  }
+}

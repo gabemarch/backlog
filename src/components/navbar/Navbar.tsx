@@ -1,6 +1,7 @@
 import logoPlaceholder from '../../assets/images/logo-placeholder.png';
 import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
+import SearchBar from '../searchbar/SearchBar';
 import './Navbar.scss';
 
 const Navbar = () => {
@@ -8,6 +9,7 @@ const Navbar = () => {
   return (
     <div className="navbar">
       <img src={logoPlaceholder} alt="logo placeholder" />
+      <SearchBar />
       <ul className="navbar-list">
         <Link to='/'>
           <li className="navbar-list-item">{t('pages.homepage')}</li>
