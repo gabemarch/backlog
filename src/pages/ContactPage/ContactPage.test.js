@@ -1,7 +1,7 @@
-import ContactPage from './ContactPage';
-import TestRenderer from 'react-test-renderer';
+import ContactPage from "./ContactPage";
+import TestRenderer from "react-test-renderer";
 
-it('renders correctly ContactPage component', () => {
-    const ContactPageComponent = TestRenderer.create(<ContactPage />).toJSON();
-    expect(ContactPageComponent).toMatchSnapshot();
+it("renders correctly ContactPage component", () => {
+  const ContactPageComponent = TestRenderer.create(<ContactPage />).toJSON();
+  expect(ContactPageComponent).toMatchSnapshot();
 });
