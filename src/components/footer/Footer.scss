@@ -1,0 +1,23 @@
+@import "../../assets/styling/variables.scss";
+
+.footer {
+  display: flex;
+  background-color: $brand-1;
+  color: $white;
+  justify-content: center;
+
+  a {
+    color: $white;
+    text-decoration: none;
+
+    &:hover {
+      color: $accent-white;
+    }
+  }
+
+  .right-column {
+    .imprint-list {
+      list-style-type: none;
+    }
+  }
+}
