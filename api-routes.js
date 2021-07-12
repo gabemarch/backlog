@@ -1,10 +1,10 @@
 const router = require("express").Router();
 
-router.get('/', function(req, res) {
+router.get("/", function (req, res) {
   res.json({
-    status: 'Its Alive',
-    message: 'Welcome to Backlog API'
+    status: "It's Alive",
+    message: "Welcome to Backlog API",
   });
-})
+});
 
 module.exports = router;

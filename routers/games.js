@@ -24,6 +24,8 @@ router.post("/", async (req, res) => {
     title: req.body.title,
     developer: req.body.developer,
     publisher: req.body.publisher,
+    platform: req.body.platform,
+    releaseDate: req.body.releaseDate,
   });
 
   try {
