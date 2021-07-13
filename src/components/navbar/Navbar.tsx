@@ -8,7 +8,9 @@ const Navbar = () => {
   const { t } = useTranslation();
   return (
     <div className="navbar">
-      <img src={logoPlaceholder} alt="logo placeholder" />
+      <Link to="/">
+        <img src={logoPlaceholder} alt="logo placeholder" />
+      </Link>
       <SearchBar />
       <ul className="navbar-list">
         <Link to='/'>

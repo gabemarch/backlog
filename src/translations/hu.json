@@ -5,9 +5,32 @@
     "contact": "Kapcsolat",
     "myProfile": "Profilom",
     "registration": "Regisztráció",
-    "signIn": "Bejelentkezés"
+    "signIn": "Bejelentkezés",
+    "aboutUs": "Rólunk",
+    "FAQ": "GYIK"
   },
   "common": {
-    "search": "Keress valamit"
+    "search": "Keresés",
+    "searchForSomething": "Keress valamit",
+    "wishlist": "Kívánságlista",
+    "favorite": "Kedvenc",
+    "favorites": "Kedvencek",
+    "upcomingReleases": "Közelgő megjelenések"
+  },
+  "authentication": {
+    "signIn": "Bejelentkezés",
+    "signOut": "Kijelentkezés",
+    "register": "Regisztrálás",
+    "registration": "Regisztráció",
+    "submit": "Elküld",
+    "username": "Felhasználónév",
+    "password": "Jelszó"
+  },
+  "home": {
+    "whatsBacklog": "Mi az a Backlog?"
+  },
+  "profile": {
+    "personalData": "Személyes adatok",
+    "myBacklog": "Backlogom"
   }
 }

@@ -5,9 +5,32 @@
     "contact": "Contact",
     "myProfile": "My Profile",
     "registration": "Registration",
-    "signIn": "Sign in"
+    "signIn": "Sign in",
+    "aboutUs": "About Us",
+    "FAQ": "FAQ"
   },
   "common": {
-    "search": "Search for something"
+    "search": "Search",
+    "searchForSomething": "Search for something",
+    "wishlist": "Wishlist",
+    "favorite": "Favorite",
+    "favorites": "Favorites",
+    "upcomingReleases": "Upcoming Releases"
+  },
+  "authentication": {
+    "signIn": "Sign in",
+    "signOut": "Sign out",
+    "register": "Register",
+    "registration": "Registration",
+    "submit": "Submit",
+    "username": "Username",
+    "password": "Password"
+  },
+  "home": {
+    "whatsBacklog": "What is Backlog?"
+  },
+  "profile": {
+    "personalData": "Personal Data",
+    "myBacklog": "My Backlog"
   }
 }

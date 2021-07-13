@@ -5,6 +5,9 @@
   background-color: $brand-1;
   color: $white;
   justify-content: center;
+  position: absolute;
+  width: 100%;
+  top: 100vh;
 
   a {
     color: $white;
